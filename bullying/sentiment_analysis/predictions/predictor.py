@@ -4,8 +4,8 @@ import math
 import random
 import logging
 
-from bulling.sentiment_analysis.utils.constants import PREPARED_DATASET_FILE_PATH
-from bulling.sentiment_analysis.utils.preparation import TextPreparation
+from bullying.sentiment_analysis.utils.constants import PREPARED_DATASET_FILE_PATH
+from bullying.sentiment_analysis.utils.preparation import TextPreparation
 
 
 def truncate(f, n):

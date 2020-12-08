@@ -130,6 +130,3 @@ yarn-error.log*
 celerybeat.pid
 celerybeat-schedule
 celerybeat-schedule.db
-
-# upload files
-/nipigas/media/

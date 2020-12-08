@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from .sentiment_analysis.predictions.predictor import Predictor
 
 
-class BullingViewSet(viewsets.ViewSet):
+class CheckBullyingViewSet(viewsets.ViewSet):
     """
     METHOD: POST
     params: text - текст для проверки

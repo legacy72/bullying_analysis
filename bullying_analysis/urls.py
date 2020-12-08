@@ -17,9 +17,9 @@ from django.conf.urls import include
 from django.contrib import admin
 from django.urls import path
 
-from bulling.urls import router as bulling_router
+from bullying.urls import router as bulling_router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bulling/', include(bulling_router.urls)),
+    path('bullying/', include(bulling_router.urls)),
 ]

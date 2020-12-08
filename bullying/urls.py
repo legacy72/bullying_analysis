@@ -5,4 +5,4 @@ from .views import *
 
 router = routers.DefaultRouter()
 
-router.register('bulling', BullingViewSet, basename='bulling')
+router.register('check_bullying', CheckBullyingViewSet, basename='check_bullying')
