@@ -1,7 +1,7 @@
 import csv
 
-from predictions.predictor import Predictor
-from utils.constants import DATASET_FILE_PATH
+from bullying.sentiment_analysis.predictions.predictor import Predictor
+from bullying.sentiment_analysis.utils.constants import DATASET_FILE_PATH
 
 
 def test():
@@ -17,3 +17,7 @@ def test():
                 f"PROB_NORMAL: {res['probability_normal']}\n"
                 f"BAD_WORDS: {res['bad_words']}\n"
             )
+
+
+if __name__ == '__main__':
+    test()
